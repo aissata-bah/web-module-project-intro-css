@@ -41,6 +41,7 @@ blockquote, q {
         margin:0;
         max-width: 100;
         border: 1px solid grey;
+        text-align: center;
     }
         /* General Styles */
 
@@ -96,34 +97,70 @@ blockquote, q {
         }
 
 .top {
-    position: relative;
+    position: relative;   
 }
 
-        .left img {
+.left img {
             border-radius: 50%;
             width: 70%
         }
 
-        .left, .right {
+.left, .right {
             display: inline-block;
             text-align: center;
         }
 
-        .left {
+.left {
             width: 40%;
         }
 
-        .right {
-            width: 45%;
-            margin-left: 3%;
-            position: absolute;
-            top: 150%;
+.right {
+        width: 45%;
+        margin-left: 3%;
+        position: relative;
+        top: -100px;
         }
-        .heroImg {
-            height: 50vh;
-            background-image:url("assets/footer_img.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: top;
 
+.right h1 {
+    font-size: 50px;
+    padding: 50px;
+}
+
+.right h2 {
+    padding: 15px;
+}
+
+.right p {
+    padding: 15px;
+}
+
+.about 
+    {
+        background-color: #cc9674;
+        color: white;
+        text-align: center;
+    }
+
+.heroImg {
+    height: 50vh;
+    background-image:url("assets/footer_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
         }
+.icons {
+    text-align: center;
+}
+
+.icons img {
+    height: 150px;
+    width; 150px;
+}
+
+.icons p {
+    
+}
+
+footer {
+    background-color: #F9E7DC;
+}
