@@ -143,6 +143,7 @@ blockquote, q {
 
 .heroImg {
     height: 50vh;
+    margin-top: 10px;
     background-image:url("assets/footer_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,11 +155,14 @@ blockquote, q {
 
 .icons img {
     height: 150px;
-    width; 150px;
+    width: 150px;
 }
 
 .icons p {
-    
+    width: 50%;
+    position: relative;
+ left: 50%;
+ margin-left: -25%;
 }
 
 footer {
