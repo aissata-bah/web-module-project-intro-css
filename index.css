@@ -40,10 +40,10 @@ blockquote, q {
         padding:0;
         margin:0;
         max-width: 100;
-        border: 1px; solid grey;
+        border: 1px solid grey;
     }
-
         /* General Styles */
+
         html{
             font-size: 62.5%;
         }
@@ -54,7 +54,6 @@ blockquote, q {
             color: #4f4f4f;
             font-family: 'Roboto Mono', monospace;
         }
-    
 
         h1 {
             font-family: 'Chelsea Market', cursive;;
@@ -63,6 +62,10 @@ blockquote, q {
 
         section {
             padding: 4% 0;
+        }
+
+        a {
+            text-decoration: none
         }
 
         nav {
@@ -79,17 +82,17 @@ blockquote, q {
 
         .orange {
             background-color: #fF764E;
-            margin-left: 10%;
+            margin-left: 5%;
         }
 
         .blue {
-            background-color: #5ED3EB
-            margin: 0;
+            background-color: #5ED3EB;
+            margin: 0 25%;
         }
 
         .yellow {
             background-color: #FFCD69;
-            margin-right: 10%;
+            margin-right: 5%;
         }
 
 .top {
